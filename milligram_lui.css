@@ -515,9 +515,9 @@ margin-top:-20px;
   .title{
     background-position: top;
     min-height: 100vh;
-    background-size: cover;
+    /*background-size: cover;*/
     min-height: 20vh;
-    background-image: url("wave3.png");
+    background-image: url("topography.png");
   }
 
   .content{
