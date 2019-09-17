@@ -35,7 +35,7 @@ body {
   margin: auto;
   padding-left: 30px;
   padding-right: 40px;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 60px;
 }
 
@@ -208,5 +208,3 @@ h6 {
 img {
   max-width: 100%;
 }
-
-/*# sourceMappingURL=milligram.css.map */
