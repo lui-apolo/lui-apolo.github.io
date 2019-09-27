@@ -43,8 +43,8 @@ body {
 
 hr {
   border: 0;
-  border-top: 0.1rem solid #f4f5f6;
-  margin: 2.0rem 1.0rem;
+  border-top: 1px solid #f4f5f6;
+  margin: 3.0rem 30px 1.0rem 0.0rem;
 }
 
 .hrcolor {
@@ -52,6 +52,25 @@ hr {
 	margin: 2.0rem 0rem;
 }
 
+
+.content {
+    width: 700px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-left: 15px;
+    float: right;
+}
+
+.content h2{
+    display: block;
+    margin: 25px 10px 10px 0px;
+}
+.content p{
+    display: block;
+    margin: 20px 10px 0px 0px;
+}
 
 a {
   color: #9b4dca;
@@ -157,6 +176,10 @@ p {
   margin-top: 0;
   max-width: 700px;
   /*font-family:'Open Sans', sans-serif;*/
+}
+
+.p2 {
+	margin-bottom: -20px;
 }
 
 
