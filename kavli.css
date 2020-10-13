@@ -52,6 +52,8 @@ body {
   width: 100%;
   min-height: 300px;
   background-color: #556E5B;
+  background-image: url("test2.jpg");
+  background-position: center;
 }
 
 .parallax-window {
@@ -169,14 +171,133 @@ margin-left: -55px;
   .tm-nav-link.focus {
   	    color: white;
   }
+  
+  
+  
+  
+  
+  
+  .tm-welcome-section {
+    margin: 60px auto;
+    max-width: 655px;
+  }
 
+  .tm-section-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
 
+  .tm-gallery {
+    margin-bottom: 80px;
+  }
 
+  .tm-gallery-page {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 
+  .tm-gallery-description {
+    font-size: 0.95rem;
+  }
 
+  .tm-section,
+  .tm-container-inner,
+  .tm-container-inner-2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .tm-gallery-page {
+      max-width: 560px;
+    }
+  }
 
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .tm-gallery-page,
+    .tm-section,
+    .tm-container-inner,
+    .tm-container-inner-2 {
+      max-width: 840px;
+    }
+  }
 
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .tm-gallery-page,
+    .tm-section {
+      max-width: 1120px;
+    }
+  
+    .tm-container-inner {
+      max-width: 1120px;
+    }
+  
+    .tm-container-inner-2 {
+      max-width: 900px;
+    }
+  }
+
+  .tm-gallery-item {
+    max-width: 280px;
+  }
+
+  .tm-gallery-img {
+    margin-bottom: 20px;
+  }
+
+  .tm-gallery-title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+  }
+
+  .tm-gallery-description {
+    margin-bottom: 20px;
+  }
+
+  .tm-gallery-price {
+    font-size: 1.25rem;
+    color: #2F956D;
+    margin-bottom: 60px;
+  }
+
+  .tm-paging-links {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .tm-paging-item {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #2F956D;
+    margin: 7px;
+  }
+
+  .tm-paging-link {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #2F956D;
+    background-color: transparent;
+  }
+
+  .tm-paging-link.active,
+  .tm-paging-link:hover {
+    background-color: #2F956D;
+    color: white;
+  }
 
 
 
@@ -421,7 +542,3 @@ h6 {
   line-height: 0;
 }
 
-
-img {
-  max-width: 100%;
-}
