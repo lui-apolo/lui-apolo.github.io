@@ -55,7 +55,7 @@ hr {
 
 
 .content {
-    width: 700px;
+    width: 900px;
     overflow: hidden;
 }
 
@@ -180,7 +180,7 @@ strong {
 
 p {
   margin-top: 0;
-  max-width: 800px;
+  max-width: 900px;
   /*font-family:'Open Sans', sans-serif;*/
 }
 
@@ -210,9 +210,10 @@ p {
 }
 
 .cr2 {
-	width:30%;
+	width:39%;
 	display:inline;
 }
+
 
 
 @media screen and (min-width: 600px){
@@ -220,7 +221,6 @@ p {
   .contactright { display: inline-block; }
   .cr2 { display: inline-block; }
   .p3 { margin-bottom: -5pt;}
-  
   .imgdivprime p { display: none; }
   }
 
@@ -242,7 +242,7 @@ h1 {
 
 h2 {
   font-size: 3.4rem;
-  line-height: .3;
+  line-height: 1.2;
   font-family: 'Futura','Roboto', 'Helvetica Neue','Open Sans', sans-serif;
   padding: -10rem;
 }
