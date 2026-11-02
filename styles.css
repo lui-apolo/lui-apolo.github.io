@@ -1,4 +1,4 @@
-/* Readable original redesign: Roboto Slab bold headings, Lato regular body.
+/* Lato bold headings and Lato regular body.
    Self-hosted fonts; licenses in assets/fonts/. */
 @font-face {
   font-family: 'Roboto Slab'; font-style: normal; font-weight: 700;
@@ -68,7 +68,7 @@ body {
 main { margin-top: 2rem; }
 footer { margin-top: 2rem; padding-bottom: 3rem; font-size: .9em; }
 h1, h2 {
-  font-family: 'Roboto Slab', Georgia, serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-weight: 700;
   color: var(--section-heading);
   line-height: 1.3;
